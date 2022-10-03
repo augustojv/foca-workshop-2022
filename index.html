@@ -296,7 +296,7 @@
                 <div class="col-md-3">
                     <div class="speaker">
                         <figure>
-                            <img alt=""  title="Bio" class="img-responsive center-block" src="assets/images/speakers/placeholder.png" data-content="">
+                            <img alt=""  title="Bio" class="img-responsive center-block" src="assets/images/speakers/vikram.jpg" style="width:300px;border-radius:50%" data-toggle="popover" data-placement="top" data-container="body" data-content="Vikram Narayanan is a fifth-year Ph.D. student in the department of computer science, University of California, Irvine (UCI). His research interests focus on creating secure operating systems, verifiable kernels and optimizing low-level systems for performance. He is the recipient of the IBM PhD fellowship.">
                         </figure>
                         <h4>Vikram Narayanan</h4>
                         <p>University of California, Irvine</p>
@@ -399,7 +399,8 @@
                         </tr>
                         <tr>
                           <th scope="row">03:45 - 04:15pm</th>
-                          <td data-toggle="popover" data-placement="top" data-container="body" data-content="">  <br> Vikram Narayanan (University of California, Irvine) </td> 
+                          <td data-toggle="popover" data-placement="top" data-container="body" data-content="Despite decades of evolution, we develop commodity operating systems in unsafe programming languages (such as C). Moreover, commodity kernels remain monolithic, i.e., execute core kernel subsystems in a single address space along with hundreds of dynamically loaded extensions and device drivers. Today, operating system kernels such as Linux suffer from hundreds of low level vulnerabilities every year. Lack of isolation within the kernel implies that a vulnerability in any of the kernel subsystems or device drivers opens a way to mount a successful attack on the entire kernel. Historically, isolation within the kernel remained prohibitive due to the high cost of hardware isolation primitives, however, new isolation mechanisms are being introduced by silicon vendors that are light-weight and thus changing the landscape of isolation. In this talk, I will introduce my work on a low-overhead isolation mechanism to compartmentalize kernel subsystems by leveraging an extended page-table (EPT) switching with VM functions. We define a set of invariants that allows us to isolate kernel components in the face of an intricate execution model of the kernel. Now, with performance no longer being the main roadblock, the complexity of isolating device drivers has become the main challenge. I will talk about our work on KSplit, a new framework for isolating unmodified device drivers in a modern, full-featured kernel. I will briefly talk about our work on Redleaf, a new operating system designed from scratch in Rust to showcase how we can build fine grained isolation by leveraging safe languages.
+"> Towards Secure Commodity Operating Systems <br> Vikram Narayanan (University of California, Irvine) </td> 
                         </tr>						
                         <tr>
                           <th scope="row">04:15 - 04:45pm</th>
